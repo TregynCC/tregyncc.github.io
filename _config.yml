@@ -17,13 +17,13 @@ back_to_top: true # set to false to disable the back to top button
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_trophies:
-  enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+# # repo color theme Github奖杯数据
+# repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+# repo_trophies:
+#   enabled: true
+#   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+#   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -33,6 +33,11 @@ repo_trophies:
 
 # -----------------------------------------------------------------------------
 # Layout
+# navbar_fixed：导航栏是否固定在顶部。
+# footer_fixed：页脚是否固定在底部。
+# search_enabled：启用站内搜索。
+# socials_in_search / posts_in_search / bib_search：控制搜索是否包含社交链接、博文、文献。
+# max_width：页面最大宽度（930px）。
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
@@ -104,20 +109,20 @@ giscus:
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+# # Disqus comments (DEPRECATED)
+# disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
