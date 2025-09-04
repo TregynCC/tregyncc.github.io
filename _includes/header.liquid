@@ -42,16 +42,15 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-
           {%- assign about_page = site.pages | where_exp: "p", "p.permalink == '/' or p.url == '/'" | first -%}
           {%- if about_page -%}
             {%- assign about_title = about_page.title -%}
           {%- endif -%}
-          
+
           {%- comment -%}
-            只有当首页没有设置 nav: false 时，才在导航栏显示首页链接
+            只有当首页没有设置 nav: false，且全局开关 show_home_in_nav != false 时才显示
           {%- endcomment -%}
-          {%- if about_page and about_page.nav != false -%}
+          {%- if about_page and about_page.nav != false and site.show_home_in_nav != false -%}
             <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
               <a class="nav-link" href="{{ '/' | relative_url }}">
                 {{- about_title -}}
@@ -61,7 +60,6 @@
               </a>
             </li>
           {%- endif -%}
-
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
