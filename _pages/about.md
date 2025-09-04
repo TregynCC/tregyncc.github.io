@@ -5,23 +5,30 @@ permalink: /
 subtitle: Under Construction
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+# includes a list of papers marked as "selected={true}"
+selected_papers: false
+
+# includes social icons at the bottom of the page
+social: false
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  # includes a list of news items
+  enabled: false
+  # adds a vertical scroll bar if there are more than 3 news items
+  scrollable: false
+  # leave blank to include all the news in the _news folder
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: false
+  # leave blank to include all the blog posts
+  limit: 3
 ---
-
 
 Hi, my name is Chen Cui (崔晨).
