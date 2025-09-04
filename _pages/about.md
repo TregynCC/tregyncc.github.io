@@ -30,5 +30,4 @@ latest_posts:
   # leave blank to include all the blog posts
   limit: 3
 ---
-
-Hi, my name is Chen Cui (崔晨).
+Hi, my name is Chen Cui（崔晨）. I will begin my Ph.D. studies in Economics at **The Chinese University of Hong Kong, Shenzhen** in September 2026. I received my B.A. in Economics from **University of Chinese Academy of Social Sciences**, and my M.Sc. in Economics from **The Chinese University of Hong Kong, Shenzhen**. My research interests are broadly in microeconomic theory and applied theory.
