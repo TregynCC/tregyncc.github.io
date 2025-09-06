@@ -3,6 +3,9 @@
 ---
 @charset "utf-8";
 
+/* Google Fonts：Noto Serif SC (简体中文，含粗体) */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap");
+
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
