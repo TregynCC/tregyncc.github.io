@@ -1423,3 +1423,12 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+/* About 页面专用字体 */
+.about-page {
+  /* 英文优先 Times New Roman，中文优先楷体 */
+  font-family: "Times New Roman", Georgia, serif,
+               "KaiTi", "Kaiti SC", "STKaiti", "AR PL KaitiM GB", "KaiTi_GB2312";
+  font-size: 1rem;
+  line-height: 1.7;
+}
