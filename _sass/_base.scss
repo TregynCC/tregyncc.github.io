@@ -1424,9 +1424,15 @@ figure.cover {
   }
 }
 
-/* About 页面正文字体 */
-.about-page {
-  font-family: "Times New Roman", Georgia, serif, "KaiTi", "Kaiti SC", "STKaiti", "KaiTi_GB2312";
+.post.about-page {
+  font-family:
+    "Times New Roman", "Noto Serif SC", serif;
   font-size: 1rem;
   line-height: 1.7;
+}
+
+/* 粗体确保生效 */
+.post.about-page b,
+.post.about-page strong {
+  font-weight: 700;
 }
