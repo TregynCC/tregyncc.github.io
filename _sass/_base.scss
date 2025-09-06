@@ -1425,8 +1425,7 @@ figure.cover {
 }
 
 .post.about-page {
-  font-family:
-    "Times New Roman", "Noto Serif SC", serif;
+  font-family: "Times New Roman", "Noto Serif SC", serif;
   font-size: 1rem;
   line-height: 1.7;
 }
@@ -1435,4 +1434,11 @@ figure.cover {
 .post.about-page b,
 .post.about-page strong {
   font-weight: 700;
+}
+
+/* 页脚字体定制 */
+footer {
+  font-family: "Times New Roman", "Noto Serif SC", serif;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
