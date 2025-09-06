@@ -1433,12 +1433,12 @@ figure.cover {
 /* 粗体确保生效 */
 .post.about-page b,
 .post.about-page strong {
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 /* 页脚字体定制 */
 footer {
-  font-family: "Times New Roman", "Noto Serif SC", serif;
+  font-family: "Times New Roman", "Noto Serif SC", serif !important;
   line-height: 1.5;
   font-size: 0.9rem;
 }
