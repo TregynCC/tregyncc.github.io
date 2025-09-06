@@ -1424,22 +1424,14 @@ figure.cover {
   }
 }
 
-/* About 页面正文字体专用 */
 .about-page {
-  font-family: 
-    /* 英文字体优先 Times New Roman，其次 Georgia */
+  font-family:
     "Times New Roman",
     Georgia,
     serif,
-
-    /* 中文字体优先楷体，不同系统的 fallback */
     "KaiTi",
     "Kaiti SC",
-    "STKaiti",
-    "AR PL KaitiM GB",
     "KaiTi_GB2312";
-
   font-size: 1rem;
   line-height: 1.7;
 }
-
