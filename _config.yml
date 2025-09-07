@@ -86,11 +86,14 @@ permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
-pagination:
-  enabled: true
 
+# pagination: enabled: false 它是什么？：这是一个分页功能的开关。当你有大量博客文章时（比如超过10篇），如果这个功能开启 (enabled: true)，Jekyll 会自动将文章列表分割成多个页面。
+pagination:
+  enabled: false
+
+# 这是一个相关文章推荐功能的开关。
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
