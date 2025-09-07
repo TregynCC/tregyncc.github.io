@@ -149,8 +149,8 @@ collections:
     output: false
   projects:
     output: false
-  posts:           # ← 新增
-    output: false  # ← 关闭文章生成
+  posts:
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
