@@ -3,6 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: Chen Cui's Homepage # the website title (if blank, full name will be used instead)
+title_cn: "崔晨"
+title_en: "Chen Cui"
+description: "This is my personal homepage, welcome! I am an incoming PhD student in Economics."
+
 first_name: Chen
 last_name: Cui
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
